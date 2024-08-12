@@ -1,0 +1,20 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "find-train": "TZ=UTC node --es-module-specifier-resolution=node find-train.js",
+    "contract-read-only": "node --es-module-specifier-resolution=node contract-read-only.js",
+    "contract-write": "node --es-module-specifier-resolution=node contract-write.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stellar/stellar-sdk": "12.2.0",
+    "date-fns": "3.6.0",
+    "ojp-sdk": "0.9.35"
+  }
+}

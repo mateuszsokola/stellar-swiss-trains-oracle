@@ -1,0 +1,1 @@
+You can use this template if you want to follow the screencast with me.
